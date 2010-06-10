@@ -1,0 +1,10 @@
+application: clstff
+version: robot
+runtime: python
+api_version: 1
+ 
+handlers:
+- url: /_wave/.*
+  script: wave.py
+- url: /assets
+  static_dir: assets
